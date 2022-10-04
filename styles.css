@@ -48,7 +48,7 @@ div.profile {
 }
 
 div.base {
-    width: 1200px;
+    width: 896px;
     border: 5px solid #3e4c5e;
     background-color: #536271;
     font-family: 'IBMPlexSans', Arial;
@@ -63,32 +63,32 @@ div.base {
     right: 0;
     top: 100px;
     box-shadow: 15px 15px #17202c81;
-    font-size: 200%;
+    font-size: 150%;
 }
 
 div.links-and-contact {
     text-align: right;
-    flex-basis: 640px;
+    flex-basis: 380px;
 }
 
 div.header {
-    font-size: 200%;
+    font-size: 150%;
     text-align: center;
 }
 
 div.profile {
     text-align: center;
-    flex-basis: 320px;
+    flex-basis: 220px;
 }
 
 div.about {
     text-align: center;
-    flex-basis: 320px;
+    flex-basis: 220px;
     padding: 12px;
 }
 
 img.pfp {
-    width: 320px;
+    width: 220px;
     top: -75px;
     left: calc(50% - 45px);
     border-radius: 50%;
