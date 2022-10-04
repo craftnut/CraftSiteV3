@@ -1,6 +1,6 @@
 
 # CraftSiteV3
-## My simple link +info website
+## My simple link + info website
 
 <p align="center">
 <img src="screenshot.png">

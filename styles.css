@@ -40,15 +40,22 @@ a:hover {
     color: #abb698
 }
 
+div.profile {
+    display: flex;
+    float: left;
+    align-items: center;
+    align-self: left;
+}
+
 div.base {
-    width: 825px;
+    width: 1200px;
     border: 5px solid #3e4c5e;
     background-color: #536271;
     font-family: 'IBMPlexSans', Arial;
-    font-size: 150%;
-    text-align: left;
-    padding-left: 10px;
-    padding-right: 10px;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    padding: 10px;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -56,19 +63,46 @@ div.base {
     right: 0;
     top: 100px;
     box-shadow: 15px 15px #17202c81;
+    font-size: 200%;
 }
 
-div.links {
-    text-align: center;
-    font-size: 150%;
+div.links-and-contact {
+    text-align: right;
+    flex-basis: 640px;
 }
 
 div.header {
+    font-size: 200%;
     text-align: center;
-    font-size: 100%;
 }
 
-div.contact {
-    text-align: right;
-    font-size: 100%;
+div.profile {
+    text-align: center;
+    flex-basis: 320px;
+}
+
+div.about {
+    text-align: center;
+    flex-basis: 320px;
+    padding: 12px;
+}
+
+img.pfp {
+    width: 320px;
+    top: -75px;
+    left: calc(50% - 45px);
+    border-radius: 50%;
+    border: 5px solid #3e4c5e;
+}
+
+div.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+ul.links-list {
+    list-style: none;
 }
